@@ -28,3 +28,17 @@ proton-ge-src/
 # Editor
 *.pyc
 __pycache__/
+# Test videos
+test_*.avi
+test_*.mp4
+sample-*.avi
+file_example_*
+
+# DXVK
+dxvk-3.0
+dxvk-3.0.tar.gz
+dxvk.conf
+
+# Media
+pfx/
+docs/screenshot_*.png
