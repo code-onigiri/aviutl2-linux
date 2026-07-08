@@ -1,6 +1,0 @@
-MODULE    = dcomp.dll
-
-VER_PRODUCTVERSION = 10,0,14393,0
-
-SOURCES = \
-	device.c

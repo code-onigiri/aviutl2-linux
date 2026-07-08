@@ -1,5 +1,0 @@
-MODULE    = rtscom.dll
-
-SOURCES = \
-	rtscom_main.c \
-	rtscom_reg.idl

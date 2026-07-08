@@ -1,4 +1,0 @@
-MODULE    = virtdisk.dll
-
-SOURCES = \
-	virtdisk_main.c

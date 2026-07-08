@@ -1,4 +1,0 @@
-0024:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
-0024:fixme:dxgi:DXGID3D10CreateDevice Ignoring flags 0x20.
-0024:fixme:d2d:d2d_device_create_device_context Options are ignored 0x1.
-0024:fixme:dwrite:dwritefactory_CreateMonitorRenderingParams (0000000000000001): monitor setting ignored

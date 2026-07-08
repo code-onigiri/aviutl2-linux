@@ -1,5 +1,0 @@
-MODULE    = ninput.dll
-IMPORTLIB = ninput
-
-SOURCES = \
-	main.c

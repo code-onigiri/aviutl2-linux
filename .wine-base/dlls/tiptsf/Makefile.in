@@ -1,5 +1,0 @@
-MODULE    = tiptsf.dll
-
-SOURCES = \
-	tiptsf.idl \
-	tiptsf_main.c

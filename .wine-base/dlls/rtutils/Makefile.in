@@ -1,5 +1,0 @@
-MODULE    = rtutils.dll
-IMPORTLIB = rtutils
-
-SOURCES = \
-	tracing.c

@@ -1,9 +1,0 @@
-0024:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
-0024:fixme:dxgi:DXGID3D10CreateDevice Ignoring flags 0x20.
-0024:fixme:d2d:d2d_device_create_device_context Options are ignored 0x1.
-0024:fixme:dwrite:dwritefactory_CreateMonitorRenderingParams (0000000000000001): monitor setting ignored
-0024:fixme:d3d11:d3d11_device_CheckFormatSupport iface 00007FFFFF43CE60, format 28, format_support 00007FFFFE20F898 partial-stub!
-0024:fixme:d3d11:d3d11_device_CheckFormatSupport iface 00007FFFFF43CE60, format 87, format_support 00007FFFFE20F898 partial-stub!
-0024:fixme:d3d11:d3d11_device_CheckFormatSupport iface 00007FFFFF43CE60, format 65, format_support 00007FFFFE20F898 partial-stub!
-0024:fixme:d3d11:d3d11_device_CheckFormatSupport iface 00007FFFFF43CE60, format 10, format_support 00007FFFFE20F898 partial-stub!
-0024:fixme:d3d11:d3d11_device_CheckFormatSupport iface 00007FFFFF43CE60, format 69, format_support 00007FFFFE20F898 partial-stub!

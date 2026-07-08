@@ -1,5 +1,0 @@
-MODULE    = sfc_os.dll
-IMPORTLIB = sfc_os
-
-SOURCES = \
-	sfc_os.c

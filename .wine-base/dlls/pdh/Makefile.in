@@ -1,5 +1,0 @@
-MODULE    = pdh.dll
-IMPORTLIB = pdh
-
-SOURCES = \
-	pdh_main.c
