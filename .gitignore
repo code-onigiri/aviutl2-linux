@@ -42,3 +42,8 @@ dxvk.conf
 # Media
 pfx/
 docs/screenshot_*.png
+# DXVK binary release
+dxvk-*.tar.gz
+# Build artifacts
+*.tar.gz
+*.tar.xz
