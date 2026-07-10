@@ -3,6 +3,8 @@
 AviUtl ExEdit2（AviUtl2）を Linux 上で動作させるためのセットアップです。
 **Proton GE + DXVK (Vulkan)** ベースで動作し、カスタム Wine ビルドは不要です。
 
+追記：YMM4とかもやるかも
+
 ## 動作確認環境
 
 - Proton GE 11-1 (wine-staging 11.0 + DXVK v2.7.1)
