@@ -81,14 +81,17 @@ pub fn calc_xxh3_hex(path: &Path) -> Option<String> {
 }
 
 pub fn resolve_macro(template: &str, aviutl_root: &Path, tmp_dir: &Path) -> PathBuf {
-    let root_str = aviutl_root.to_string_lossy().to_string();
     let data_dir = get_data_dir(aviutl_root);
     let data_str = data_dir.to_string_lossy().to_string();
     let plugins_str = data_dir.join("Plugin").to_string_lossy().to_string();
     let scripts_str = data_dir.join("Script").to_string_lossy().to_string();
 
+    // Note: on Linux + Proton GE, AviUtl2's data directory (Plugin, Script, Language)
+    // lives under the Wine prefix (drive_c/ProgramData/aviutl2/), NOT the repo root.
+    // We map {appDir} → dataDir so packages that extract to {appDir} don't
+    // overwrite files in the repo root (README.md, etc.).
     let s = template
-        .replace("{appDir}", &root_str)
+        .replace("{appDir}", &data_str)
         .replace("{dataDir}", &data_str)
         .replace("{pluginsDir}", &plugins_str)
         .replace("{scriptsDir}", &scripts_str)
